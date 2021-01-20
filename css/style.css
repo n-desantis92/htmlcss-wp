@@ -73,6 +73,9 @@ li a {
 h4 {
   margin: 10px 0;
 }
+p {
+  color:  #929292;
+}
 /* banner */
 section.banner {
   position: relative;
@@ -99,7 +102,7 @@ section.banner {
 /* corpo */
 section.corpo {
   width: 100%;
-  height: 800px;
+  height: 550px;
 }
 /* head corpo */
 section.corpo .head {
@@ -161,8 +164,13 @@ div.colonne.central {
 /* /main */
 
 footer {
-  background-color: purple;
+  text-align: center;
   width: 100%;
   height: 30px;
   margin-top: 5px;
+}
+
+#love {
+  color: red;
+  font-size: 1.8em;
 }
