@@ -19,6 +19,7 @@ body {
 
 .overlay {
   position: absolute;
+  border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.3);
   top: 0;
   left: 0;
@@ -29,7 +30,7 @@ body {
 
 .container {
   margin: auto;
-  width: 60%;
+  width: 80%;
 }
 /* /pagina */
 
@@ -81,9 +82,6 @@ section.banner {
   height: 380px;
   margin-bottom: 10px;
 }
-.banner .overlay {
-  border-radius: 10px;
-}
 
 .banner-titolo {
   font-family: "Montserrat", sans-serif;
@@ -95,15 +93,14 @@ section.banner {
 }
 /* /banner */
 
-
+/* corpo */
 section.corpo {
   width: 100%;
-  height: 300px;
+  height: 800px;
 }
 /* head corpo */
 section.corpo .head {
-  background-color: lightblue;
-  height: 20%;
+  height: 10%;
   margin-bottom: 1%;
   margin-top: 3%;
   padding: 1% 0;
@@ -120,16 +117,31 @@ section.corpo .head {
 }
 
 div.colonne {
-  background-color: lightblue;
-  width: 25%;
+  width: 24%;
   height: 80%;
   float: left;
 }
 
+.col-1 .col-img1 {
+  position: relative;
+  background-image: url(../img/img-1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 30%;
+}
+
+.col-1 h4 {
+  padding: 4% 0;
+
+}
+
 div.colonne.central {
-  width: 48%;
+  width: 50%;
   margin: 0 1%;
 }
+/* /corpo */
+
 /* /main */
 
 footer {
