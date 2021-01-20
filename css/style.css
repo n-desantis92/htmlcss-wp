@@ -7,6 +7,9 @@
 /* /reset */
 
 /* pagina */
+html {
+  famiglia di caratteri: "Montserrat", sans-serif;
+}
 .clearfix::after {
   content: "";
   display: block;
