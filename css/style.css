@@ -7,8 +7,8 @@
 /* /reset */
 
 /* pagina */
-html {
-  famiglia di caratteri: "Montserrat", sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 .clearfix::after {
   content: "";
@@ -35,6 +35,10 @@ html {
 
 .logo {
   height: 100%;
+}
+
+nav {
+  height: 20%;
 }
 /* /header */
 
