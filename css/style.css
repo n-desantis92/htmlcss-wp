@@ -69,6 +69,7 @@ li a {
 /* /header */
 
 /* main */
+/* banner */
 section.banner {
   position: relative;
   margin-top: 20px;
@@ -80,6 +81,9 @@ section.banner {
   height: 380px;
   margin-bottom: 10px;
 }
+.banner .overlay {
+  border-radius: 10px;
+}
 
 .banner-titolo {
   font-family: "Montserrat", sans-serif;
@@ -89,19 +93,26 @@ section.banner {
   bottom: 18%;
   color: white;
 }
+/* /banner */
 
 
 section.corpo {
-  background-color: blue;
   width: 100%;
   height: 300px;
 }
-
+/* head corpo */
 section.corpo .head {
   background-color: lightblue;
-  height: 15%;
+  height: 20%;
   margin-bottom: 1%;
+  margin-top: 3%;
+  padding: 1% 0;
 }
+
+.head div {
+  color: #858585;
+}
+/* /head corpo */
 
 .row {
   height: 100%;
