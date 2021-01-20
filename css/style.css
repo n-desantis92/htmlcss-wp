@@ -125,7 +125,7 @@ div.colonne {
   float: left;
 }
 
-.col-1 .col-img1 {
+.col-left .col-img1 {
   position: relative;
   background-image: url(../img/img-1.jpg);
   background-size: cover;
@@ -142,6 +142,15 @@ div.colonne.central {
 .central .banner-2 {
   position: relative;
   background-image: url(../img/banner-2.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 30%;
+}
+
+.col-right .col-img2 {
+  position: relative;
+  background-image: url(../img/img-3.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
